@@ -1,0 +1,21 @@
+.deleteBtn {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.deleteBtn .delete {
+  background: #dc3346;
+}
+
+@media screen and (max-width: 450px) {
+  .deleteBtn {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .deleteBtn {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

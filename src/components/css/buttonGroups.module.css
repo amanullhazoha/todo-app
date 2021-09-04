@@ -1,0 +1,23 @@
+.buttonGroup {
+  margin-bottom: 40px;
+}
+
+.buttonGroup h2 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.buttonGroup .buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .buttonGroup .buttons {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+}

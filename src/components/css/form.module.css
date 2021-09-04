@@ -1,0 +1,43 @@
+form {
+  position: relative;
+}
+
+.input {
+  margin-bottom: 10px;
+}
+
+.input .icon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 38px;
+  height: 34px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  background: #16a3b7;
+  color: #fff;
+}
+
+.input .icon i {
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+  margin-top: 5px;
+}
+
+.input input {
+  width: 100%;
+  font-size: 16px;
+  padding: 7px 15px 7px 45px;
+  outline: none;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.addNew {
+  width: 100%;
+}
+
+.addNew:hover {
+  background: #3ea5b4;
+}
